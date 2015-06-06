@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		44A546271A28D82F0096EAED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44A546261A28D82F0096EAED /* main.cpp */; };
+		44A5462F1A28D8460096EAED /* Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44A5462D1A28D8460096EAED /* Tree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,10 @@
 /* Begin PBXFileReference section */
 		44A546231A28D82F0096EAED /* BinaryTreeProject5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinaryTreeProject5; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A546261A28D82F0096EAED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		44A5462D1A28D8460096EAED /* Tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tree.cpp; sourceTree = "<group>"; };
+		44A5462E1A28D8460096EAED /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		44A546301A28FD410096EAED /* Input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Input.txt; sourceTree = "<group>"; };
+		44A546311A28FD410096EAED /* Output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Output.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +62,11 @@
 		44A546251A28D82F0096EAED /* BinaryTreeProject5 */ = {
 			isa = PBXGroup;
 			children = (
+				44A546301A28FD410096EAED /* Input.txt */,
+				44A546311A28FD410096EAED /* Output.txt */,
 				44A546261A28D82F0096EAED /* main.cpp */,
+				44A5462D1A28D8460096EAED /* Tree.cpp */,
+				44A5462E1A28D8460096EAED /* Tree.h */,
 			);
 			path = BinaryTreeProject5;
 			sourceTree = "<group>";
@@ -119,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44A546271A28D82F0096EAED /* main.cpp in Sources */,
+				44A5462F1A28D8460096EAED /* Tree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +242,7 @@
 				44A5462C1A28D82F0096EAED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
